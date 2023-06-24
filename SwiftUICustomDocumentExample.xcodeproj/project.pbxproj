@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F75DF302A474D9400431DE8 /* SwiftUICustomDocumentExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75DF2F2A474D9400431DE8 /* SwiftUICustomDocumentExampleApp.swift */; };
-		8F75DF322A474D9400431DE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75DF312A474D9400431DE8 /* ContentView.swift */; };
 		8F75DF342A474D9600431DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F75DF332A474D9600431DE8 /* Assets.xcassets */; };
 		8F75DF372A474D9600431DE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F75DF362A474D9600431DE8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,10 +15,11 @@
 /* Begin PBXFileReference section */
 		8F75DF2C2A474D9400431DE8 /* SwiftUICustomDocumentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICustomDocumentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F75DF2F2A474D9400431DE8 /* SwiftUICustomDocumentExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICustomDocumentExampleApp.swift; sourceTree = "<group>"; };
-		8F75DF312A474D9400431DE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F75DF332A474D9600431DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F75DF362A474D9600431DE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F75DF382A474D9600431DE8 /* SwiftUICustomDocumentExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICustomDocumentExample.entitlements; sourceTree = "<group>"; };
+		8F75DF3E2A474EDC00431DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8F75DF3F2A474FDE00431DE8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +36,7 @@
 		8F75DF232A474D9400431DE8 = {
 			isa = PBXGroup;
 			children = (
+				8F75DF3F2A474FDE00431DE8 /* README.md */,
 				8F75DF2E2A474D9400431DE8 /* SwiftUICustomDocumentExample */,
 				8F75DF2D2A474D9400431DE8 /* Products */,
 			);
@@ -52,8 +53,8 @@
 		8F75DF2E2A474D9400431DE8 /* SwiftUICustomDocumentExample */ = {
 			isa = PBXGroup;
 			children = (
+				8F75DF3E2A474EDC00431DE8 /* Info.plist */,
 				8F75DF2F2A474D9400431DE8 /* SwiftUICustomDocumentExampleApp.swift */,
-				8F75DF312A474D9400431DE8 /* ContentView.swift */,
 				8F75DF332A474D9600431DE8 /* Assets.xcassets */,
 				8F75DF382A474D9600431DE8 /* SwiftUICustomDocumentExample.entitlements */,
 				8F75DF352A474D9600431DE8 /* Preview Content */,
@@ -139,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F75DF322A474D9400431DE8 /* ContentView.swift in Sources */,
 				8F75DF302A474D9400431DE8 /* SwiftUICustomDocumentExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,9 +271,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICustomDocumentExample/Preview Content\"";
 				DEVELOPMENT_TEAM = Q7HWV27P33;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICustomDocumentExample/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,9 +299,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICustomDocumentExample/Preview Content\"";
 				DEVELOPMENT_TEAM = Q7HWV27P33;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUICustomDocumentExample/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
